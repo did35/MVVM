@@ -11,6 +11,8 @@
 		636DD2FD27E46080002BEB8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636DD2FC27E46080002BEB8C /* ContentView.swift */; };
 		636DD2FF27E46081002BEB8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636DD2FE27E46081002BEB8C /* Assets.xcassets */; };
 		636DD30227E46081002BEB8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636DD30127E46081002BEB8C /* Preview Assets.xcassets */; };
+		636DD30C27E460E4002BEB8C /* InstrumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636DD30B27E460E4002BEB8C /* InstrumentModel.swift */; };
+		636DD30E27E46234002BEB8C /* InstrumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636DD30D27E46234002BEB8C /* InstrumentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		636DD2FC27E46080002BEB8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		636DD2FE27E46081002BEB8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636DD30127E46081002BEB8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		636DD30B27E460E4002BEB8C /* InstrumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentModel.swift; sourceTree = "<group>"; };
+		636DD30D27E46234002BEB8C /* InstrumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				636DD2FA27E46080002BEB8C /* MVVMApp.swift */,
-				636DD2FC27E46080002BEB8C /* ContentView.swift */,
+				636DD30A27E460BF002BEB8C /* Model */,
+				636DD30927E460B7002BEB8C /* View */,
+				636DD30827E460AD002BEB8C /* ViewModel */,
 				636DD2FE27E46081002BEB8C /* Assets.xcassets */,
 				636DD30027E46081002BEB8C /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				636DD30127E46081002BEB8C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		636DD30827E460AD002BEB8C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				636DD30D27E46234002BEB8C /* InstrumentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		636DD30927E460B7002BEB8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				636DD2FC27E46080002BEB8C /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		636DD30A27E460BF002BEB8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				636DD30B27E460E4002BEB8C /* InstrumentModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				636DD2FD27E46080002BEB8C /* ContentView.swift in Sources */,
+				636DD30E27E46234002BEB8C /* InstrumentViewModel.swift in Sources */,
 				636DD2FB27E46080002BEB8C /* MVVMApp.swift in Sources */,
+				636DD30C27E460E4002BEB8C /* InstrumentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
